@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ABCD5CD41A794C85003618CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCD5CD31A794C85003618CC /* main.m */; };
-		ABCD5CD71A794C85003618CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCD5CD61A794C85003618CC /* AppDelegate.m */; };
-		ABCD5CDA1A794C85003618CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCD5CD91A794C85003618CC /* ViewController.m */; };
-		ABCD5CDD1A794C85003618CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCD5CDB1A794C85003618CC /* Main.storyboard */; };
-		ABCD5CDF1A794C85003618CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCD5CDE1A794C85003618CC /* Images.xcassets */; };
-		ABCD5CE21A794C85003618CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABCD5CE01A794C85003618CC /* LaunchScreen.xib */; };
 		ABCD5CEE1A794C85003618CC /* ABCountdownViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCD5CED1A794C85003618CC /* ABCountdownViewControllerTests.m */; };
+		ABCD5D0D1A7964CC003618CC /* ABCountdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCD5CFF1A7964CC003618CC /* ABCountdownViewController.m */; };
+		ABCD5D0E1A7964CC003618CC /* ABCountdownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABCD5D001A7964CC003618CC /* ABCountdownViewController.xib */; };
+		ABCD5D0F1A7964CC003618CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCD5D031A7964CC003618CC /* AppDelegate.m */; };
+		ABCD5D101A7964CC003618CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABCD5D041A7964CC003618CC /* LaunchScreen.xib */; };
+		ABCD5D111A7964CC003618CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCD5D061A7964CC003618CC /* Main.storyboard */; };
+		ABCD5D121A7964CC003618CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCD5D081A7964CC003618CC /* Images.xcassets */; };
+		ABCD5D141A7964CC003618CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCD5D0A1A7964CC003618CC /* main.m */; };
+		ABCD5D151A7964CC003618CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCD5D0C1A7964CC003618CC /* ViewController.m */; };
+		ABCD5D171A796525003618CC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABCD5D161A796525003618CC /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +31,21 @@
 
 /* Begin PBXFileReference section */
 		ABCD5CCE1A794C85003618CC /* ABCountdownViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABCountdownViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABCD5CD21A794C85003618CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABCD5CD31A794C85003618CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ABCD5CD51A794C85003618CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		ABCD5CD61A794C85003618CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ABCD5CD81A794C85003618CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ABCD5CD91A794C85003618CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ABCD5CDC1A794C85003618CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ABCD5CDE1A794C85003618CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		ABCD5CE11A794C85003618CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ABCD5CE71A794C85003618CC /* ABCountdownViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABCountdownViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCD5CEC1A794C85003618CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABCD5CED1A794C85003618CC /* ABCountdownViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABCountdownViewControllerTests.m; sourceTree = "<group>"; };
+		ABCD5CFE1A7964CC003618CC /* ABCountdownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCountdownViewController.h; sourceTree = "<group>"; };
+		ABCD5CFF1A7964CC003618CC /* ABCountdownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCountdownViewController.m; sourceTree = "<group>"; };
+		ABCD5D001A7964CC003618CC /* ABCountdownViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ABCountdownViewController.xib; sourceTree = "<group>"; };
+		ABCD5D021A7964CC003618CC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABCD5D031A7964CC003618CC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABCD5D051A7964CC003618CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ABCD5D071A7964CC003618CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABCD5D081A7964CC003618CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABCD5D0A1A7964CC003618CC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABCD5D0B1A7964CC003618CC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABCD5D0C1A7964CC003618CC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABCD5D161A796525003618CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ABCountdownViewController/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +69,8 @@
 		ABCD5CC51A794C85003618CC = {
 			isa = PBXGroup;
 			children = (
-				ABCD5CD01A794C85003618CC /* ABCountdownViewController */,
+				ABCD5CFD1A7964CC003618CC /* ABCountdownViewController */,
+				ABCD5D011A7964CC003618CC /* Example */,
 				ABCD5CEA1A794C85003618CC /* ABCountdownViewControllerTests */,
 				ABCD5CCF1A794C85003618CC /* Products */,
 			);
@@ -76,30 +83,6 @@
 				ABCD5CE71A794C85003618CC /* ABCountdownViewControllerTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		ABCD5CD01A794C85003618CC /* ABCountdownViewController */ = {
-			isa = PBXGroup;
-			children = (
-				ABCD5CD51A794C85003618CC /* AppDelegate.h */,
-				ABCD5CD61A794C85003618CC /* AppDelegate.m */,
-				ABCD5CD81A794C85003618CC /* ViewController.h */,
-				ABCD5CD91A794C85003618CC /* ViewController.m */,
-				ABCD5CDB1A794C85003618CC /* Main.storyboard */,
-				ABCD5CDE1A794C85003618CC /* Images.xcassets */,
-				ABCD5CE01A794C85003618CC /* LaunchScreen.xib */,
-				ABCD5CD11A794C85003618CC /* Supporting Files */,
-			);
-			path = ABCountdownViewController;
-			sourceTree = "<group>";
-		};
-		ABCD5CD11A794C85003618CC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				ABCD5CD21A794C85003618CC /* Info.plist */,
-				ABCD5CD31A794C85003618CC /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		ABCD5CEA1A794C85003618CC /* ABCountdownViewControllerTests */ = {
@@ -117,6 +100,32 @@
 				ABCD5CEC1A794C85003618CC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABCD5CFD1A7964CC003618CC /* ABCountdownViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD5CFE1A7964CC003618CC /* ABCountdownViewController.h */,
+				ABCD5CFF1A7964CC003618CC /* ABCountdownViewController.m */,
+				ABCD5D001A7964CC003618CC /* ABCountdownViewController.xib */,
+			);
+			path = ABCountdownViewController;
+			sourceTree = "<group>";
+		};
+		ABCD5D011A7964CC003618CC /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD5D161A796525003618CC /* Info.plist */,
+				ABCD5D021A7964CC003618CC /* AppDelegate.h */,
+				ABCD5D031A7964CC003618CC /* AppDelegate.m */,
+				ABCD5D041A7964CC003618CC /* LaunchScreen.xib */,
+				ABCD5D061A7964CC003618CC /* Main.storyboard */,
+				ABCD5D081A7964CC003618CC /* Images.xcassets */,
+				ABCD5D0A1A7964CC003618CC /* main.m */,
+				ABCD5D0B1A7964CC003618CC /* ViewController.h */,
+				ABCD5D0C1A7964CC003618CC /* ViewController.m */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +208,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABCD5CDD1A794C85003618CC /* Main.storyboard in Resources */,
-				ABCD5CE21A794C85003618CC /* LaunchScreen.xib in Resources */,
-				ABCD5CDF1A794C85003618CC /* Images.xcassets in Resources */,
+				ABCD5D111A7964CC003618CC /* Main.storyboard in Resources */,
+				ABCD5D121A7964CC003618CC /* Images.xcassets in Resources */,
+				ABCD5D101A7964CC003618CC /* LaunchScreen.xib in Resources */,
+				ABCD5D171A796525003618CC /* Info.plist in Resources */,
+				ABCD5D0E1A7964CC003618CC /* ABCountdownViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +230,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABCD5CDA1A794C85003618CC /* ViewController.m in Sources */,
-				ABCD5CD71A794C85003618CC /* AppDelegate.m in Sources */,
-				ABCD5CD41A794C85003618CC /* main.m in Sources */,
+				ABCD5D0F1A7964CC003618CC /* AppDelegate.m in Sources */,
+				ABCD5D141A7964CC003618CC /* main.m in Sources */,
+				ABCD5D151A7964CC003618CC /* ViewController.m in Sources */,
+				ABCD5D0D1A7964CC003618CC /* ABCountdownViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,20 +256,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ABCD5CDB1A794C85003618CC /* Main.storyboard */ = {
+		ABCD5D041A7964CC003618CC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ABCD5CDC1A794C85003618CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ABCD5CE01A794C85003618CC /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABCD5CE11A794C85003618CC /* Base */,
+				ABCD5D051A7964CC003618CC /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		ABCD5D061A7964CC003618CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCD5D071A7964CC003618CC /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
