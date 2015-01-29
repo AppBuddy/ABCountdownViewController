@@ -426,6 +426,7 @@
 				ABCD5CF31A794C85003618CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABCD5CF41A794C85003618CC /* Build configuration list for PBXNativeTarget "ABCountdownViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +435,7 @@
 				ABCD5CF61A794C85003618CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
